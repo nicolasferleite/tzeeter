@@ -1,0 +1,105 @@
+body{
+    color: rgb(15, 20, 25);
+}
+
+a{
+    color: rgb(15, 20, 25);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+}
+
+header{
+    margin: 20px 0;
+}
+
+.numbers, .cinza{
+    color: rgb(83, 100, 113);
+    font-weight: normal;
+}
+
+.numbers:hover{
+    text-decoration: underline;
+}
+
+.flex{
+    display: flex;
+    gap: 5px;
+}
+
+span{
+    font-weight: bold;
+    color: rgb(15, 20, 25);
+}
+
+img{
+    height: 16px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+header nav ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+.ft-perfil{
+    height: 64px;
+    border-radius: 50%;
+}
+
+button{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.post{
+    margin: 20px 0;
+    padding: 20px 5px;
+    border-radius: 15px;
+}
+
+.post:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.azul:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
+
+.verde:hover{
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+}
+
+.rosa:hover{
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+}
